@@ -1,5 +1,5 @@
-const JLT = artifacts.require("JLT");
+const ART = artifacts.require("ART");
 
 module.exports = function (deployer) {
-  deployer.deploy(JLT);
+  deployer.deploy(ART);
 };
