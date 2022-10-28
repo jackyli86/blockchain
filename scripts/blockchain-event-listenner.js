@@ -3,8 +3,8 @@ module.exports = async function main (callback) {
   try {
     // Our code will go here
     // Set up a Truffle contract, representing our deployed Box instance
-    const ART = artifacts.require('ART');
-    const art = await ART.deployed();
+    const BOX = artifacts.require('Box');
+    const box = await BOX.deployed();
     
     
     callback(0);

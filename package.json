@@ -4,15 +4,10 @@
   "description": "a project for learn blockchain",
   "main": "index.js",
   "scripts": {
-    "install-truffle": "npm install --save-dev truffle",
-    "install-openzeppelin": "npm install --save-dev @openzeppelin/contracts",
-    "install-ganache": "npm install --save-dev ganache-cli",
-    "install-dev-tools": "npm install truffle @openzeppelin/contracts ganache-cli --save-dev",
-    "init": "npx truffle init",
-    "compile": "npx truffle compile",
-    "startup-blockchain": "npx ganache-cli --deterministic",
-    "deploy": "npx truffle migrate --network development",
-    "console": "npx truffle console --network development"
+    "ganache-cli": "npx ganache-cli --deterministic",
+    "truffle-migrate": "npx truffle migrate --network development",
+    "truffle-console": "npx truffle console --network development",
+    "truffle-exec": "npx truffle exec --network development"
   },
   "author": "Jacky.li",
   "license": "ISC",
@@ -28,8 +23,7 @@
   },
   "homepage": "https://github.com/lihjgamer/blockchain#readme",
   "devDependencies": {
-    "@openzeppelin/contracts": "^4.4.2",
     "ganache-cli": "^6.12.2",
-    "truffle": "^5.4.29"
+    "truffle": "^5.6.3"
   }
 }
