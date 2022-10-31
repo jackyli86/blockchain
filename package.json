@@ -4,10 +4,10 @@
   "description": "a project for learn blockchain",
   "main": "index.js",
   "scripts": {
-    "ganache-cli": "npx ganache-cli --deterministic",
-    "truffle-migrate": "npx truffle migrate --network development",
-    "truffle-console": "npx truffle console --network development",
-    "truffle-exec": "npx truffle exec --network development"
+    "ganache": "ganache --deterministic",
+    "truffle-migrate": "truffle migrate --network development",
+    "truffle-console": "truffle console --network development",
+    "truffle-exec": "truffle exec --network development"
   },
   "author": "Jacky.li",
   "license": "ISC",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/lihjgamer/blockchain#readme",
   "devDependencies": {
-    "ganache-cli": "^6.12.2",
+    "ganache": "^7.5.0",
     "truffle": "^5.6.3"
   }
 }
