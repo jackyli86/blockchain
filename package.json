@@ -5,25 +5,32 @@
   "main": "index.js",
   "scripts": {
     "ganache": "ganache --deterministic",
-    "truffle-migrate": "truffle migrate --network development",
-    "truffle-console": "truffle console --network development",
-    "truffle-exec": "truffle exec --network development"
+    "dev-migrate": "truffle migrate --network development",
+    "dev-console": "truffle console --network development",
+    "dev-exec": "truffle exec --network development",
+    "qk-migrate": "truffle migrate --network quiknode",
+    "qk-console": "truffle console --network quiknode",
+    "qk-exec": "truffle exec --network quiknode"
   },
   "author": "Jacky.li",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/lihjgamer/blockchain.git"
+    "url": "git+ssh://git@github.com/jackyli86/blockchain.git"
   },
   "keywords": [
     "blockchain"
   ],
   "bugs": {
-    "url": "https://github.com/lihjgamer/blockchain/issues"
+    "url": "https://github.com/jackyli86/blockchain/issues"
   },
-  "homepage": "https://github.com/lihjgamer/blockchain#readme",
+  "homepage": "https://github.com/jackyli86/blockchain#readme",
   "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.1.8",
     "ganache": "^7.5.0",
     "truffle": "^5.6.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2"
   }
 }
