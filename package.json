@@ -4,7 +4,7 @@
   "description": "a project for learn blockchain",
   "main": "index.js",
   "scripts": {
-    "ganache": "ganache --deterministic",
+    "ganache": "ganache --deterministic -h 10.10.50.80",
     "dev-migrate": "truffle migrate --network development",
     "dev-console": "truffle console --network development",
     "dev-exec": "truffle exec --network development",
